@@ -7,11 +7,11 @@ public class RWOnly {
         System.out.println(name);
     }
 
-    public String getName() {
+    public String getter() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setter(String name) {
         this.name = name;
     }
 }
